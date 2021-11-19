@@ -17,6 +17,13 @@ public class Yates extends Embarcacion implements Comparable{
 
     @Override
     public void navegar() {
-
+        System.out.println("\nSoy un yate y estoy navegando :33");
+        System.out.println("                  __/___\n" +
+                "            _____/______|\n" +
+                "    _______/_____\\_______\\_____\n" +
+                "    \\              < < <       |\n" +
+                "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+        System.out.println("Los datos de mi capitan son:" + datosCapitan());
     }
+
 }
